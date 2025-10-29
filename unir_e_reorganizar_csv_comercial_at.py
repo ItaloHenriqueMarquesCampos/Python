@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Caminho da pasta onde estão os arquivos CSV
-pasta = r"C:\Users\Pichau\Desktop\Arquivos PY"
+pasta = r"C:\Users\italo.marques\Desktop\Py\Files"
 
 # Lista de arquivos CSV para unir
 arquivos = [os.path.join(pasta, f) for f in os.listdir(pasta) if f.endswith('.csv')]
@@ -41,7 +41,7 @@ ordem_colunas = [
     "dataNegociando",
     "amem",
     "certificadora",
-    "utmCampaign"
+    "utmSource"
 ]
 
 # Verificar se todas as colunas existem no DataFrame
